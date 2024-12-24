@@ -1,0 +1,22 @@
+export enum PERMISSION_ENUM {
+    CREATE_USER = 'CREATE_USER',
+    EDIT_USER = 'EDIT_USER',
+    DELETE_USER = 'DELETE_USER',
+    VIEW_USER = 'VIEW_USER',
+    CREATE_BOOKING = 'CREATE_BOOKING',
+    VIEW_BOOKING = 'VIEW_BOOKING',
+    EDIT_BOOKING = 'EDIT_BOOKING',
+    DELETE_BOOKING = 'DELETE_BOOKING',
+}
+
+export enum ROLE_ENUM {
+    SUPER_ADMIN = 'SUPER_ADMIN',
+    COMPANY_ADMIN = 'Company Admin',
+    COMPANY_EMPLOYEE = 'Company Employee',
+    CUSTOMER = 'Customer',
+}
+
+export enum USER_STATUS {
+    ACTIVE = 'ACTIVE',
+    INACTIVE = 'INACTIVE',
+}
